@@ -5,19 +5,11 @@
     <link rel="stylesheet" href="panel.css">
 </head>
 <body>
-    <div id="fields">
-        <p>Redirect .html Generator:</p>
-        <table class="fields">
-              <tr>
-                <td class="col1">Short Code: </td>
-                <td class="col2"><input type="text" id="shortUrl"><br></td>
-              </tr>
-              <tr>
-                <td class="col1">URL: </td>
-                <td class="col2"><input type="url" id="longUrl"></td>
-              </tr>
-        </table>
-        <input id="button" type="button" value="Senden" onclick="uploadToGithub();" />
-    </div>
+    <p>Redirect .html Generator:</p>
+    <input type="text" id="shortUrl" placeholder="Short Code">
+    <br>
+    <input type="url" id="longUrl" placeholder="ganze URL">
+    <br><br>
+    <input id="button" type="button" value="Senden" onclick="uploadToGithub();" />
 </body>
 </html>

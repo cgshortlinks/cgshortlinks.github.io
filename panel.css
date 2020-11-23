@@ -1,3 +1,15 @@
-body {background-color: #E2190C;}
+body {background-color: #252525;}
 
-#fields .col2 * { width:100%;}
+input {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 10vw;
+    font-size: 8vw;
+}
+
+p {
+ color: #E2190C;
+ font-size: 400%;
+}
+
