@@ -10,4 +10,5 @@ function uploadToGithub() {
     var filename = shortUrl + ".html";
     var content = '<meta http-equiv="refresh" content="0; url=' + longUrl + '" />'
     download(content, filename, "text/html");
+    window.location.href = "https://github.com/cgshortlinks/cgshortlinks.github.io/upload/main";
 }
